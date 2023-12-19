@@ -1,0 +1,3 @@
+Bash Command: bash command should be on Location: /bin/bash.
+Ensure the script is executable (chmod +x internsctl) and placed in a directory within your $PATH, and the manual file (internsctl.1) is placed in the correct manual pages directory (usually /usr/share/man/man1/).
+With this setup, man internsctl will display the manual page, internsctl --help will show the help information, and internsctl --version will display the command version.
